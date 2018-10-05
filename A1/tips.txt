@@ -1,0 +1,9 @@
+1. Don't push a snowball to the coners of the board unless the corner is the destination. Otherwise, the snowball won't be able to be moved again.
+
+2. Don't push a snowball to a position where two or three adjacent sides of the position are taken by obstacles  of the board unless the corner is the destination. Otherwise, the snowball won't be able to be moved again.
+
+3. Don't push a snowball to a position right beside the wall unless the destination is beside the same wall. If you do that, the snowball can not leave the ball anymore.
+
+4. You can use Manhatten distance as reference when you are playing the game. It will probably provide a solution with lower cost.
+
+5. If the destination is at one of the coners, always push the large ball to the destination first, and then the medium ball and finally the small ball. Otherwise, you will never be able to build a snowman.
